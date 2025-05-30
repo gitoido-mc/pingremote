@@ -5,7 +5,7 @@
 	"name": "Ping Remote",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Gitoido"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -17,18 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"lol.gito.pingremote.PingRemote"
-		],
-		"client": [
-			"lol.gito.pingremote.PingRemoteClient"
 		]
 	},
-	"mixins": [
-		"pingremote.mixins.json",
-		{
-			"config": "pingremote.client.mixins.json",
-			"environment": "client"
-		}
-	],
+	"mixins": [],
 	"depends": {
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.21.1",
